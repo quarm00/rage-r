@@ -1,0 +1,101 @@
+EKYI QUARM JNR
+
+Q1.
+class okok {
+	public static void main(String[] args) {
+		System.out.println("We will be serious this sem");
+	}
+}
+
+
+Q2.
+package.com.company;
+import java.util.Scanner;
+public class okok {
+    public static void main(string[] args) {
+        Scanner input = new
+
+                System.out.print("Enter first number: ");
+        int FirstNum = input.nextInt();
+        System.out.print("Enter second number: ");
+        int SecondNum = input.nextInt();
+
+
+        int sum = FirstNum + SecondNum;
+        int difference = FirstNum - SecondNum;
+        int product = FirstNum * SecondNum;
+        float quotient = FirstNum / (float) SecondNum;
+        double power = Math.pow(FirstNumber, SecondNumber);
+        double square = Math.sqrt(FirstNum + SecondNum);
+
+        System.out.printIn("the sum is" + sum);
+        System.out.printIn("the difference is" + difference);
+        System.out.printIn("the product is" + product);
+        System.out.printIn("the quotient is" + quotient);
+        System.out.printIn("the power is" + power);
+        System.out.printIn("the square root is" + square);
+    }
+}
+
+Q3.
+package com.company;
+import java.util.scanner;
+public class okok {
+    public static void main(string [] args){
+        int start;
+        int step;
+        int stop;
+        int x;
+        scanner in = new scanner(system.in);
+        system.out.println("ENTER START: ");
+        start = in.nextInt();
+        system.out.println("ENTER STEP: ");
+        step= in.nextIntln();
+        system.out.println("ENTER STOP :");
+        stop= in.nextInt();
+        for(x=start;x<stop;x+= step)
+            system.out.println(x);
+    }
+}
+
+Q4.
+package com.company;
+import java.util.Scanner;
+public class okok {
+    public static void main(String[] args) {
+        int firstNumber;
+        int secondNumber;
+        Scanner in = new Scanner(System.in);
+        System.out.println("FIRST NUMBER: ");
+        number = in.nextInt();
+        System.out.println("SECOND NUMBER:");
+        number2 = in.nextInt();
+        if (firstNumber > secondNumber) {
+            System.out.println("The bigger number is :" + firstNumber);
+        }
+        else if (secondNumber > firstNumber) {
+            System.out.println("The bigger number is :." + secondNumber);
+        }
+
+        else  System.out.println("Both numbers are equal");
+        }
+
+Q5.
+package com.company;
+import java.util.Scanner;
+public class okok {
+    public static void main(String[] args) {
+        int numb;
+        int sum;
+        Scanner in = new Scanner(System.in);
+        System.out.println("Enter a number: ");
+        numb = in.nextInt();
+        for(sum=0; user!=0; numb=numb/10){
+            sum = sum + numb % 10;
+        }
+        System.out.println("The sum of the digits of the number is: " +sum);
+
+    }
+}
+
+Q6.
